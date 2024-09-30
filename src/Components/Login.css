@@ -1,0 +1,46 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .login-input {
+    width: 93%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-color: black;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 8px;
+    background-color: #cc5500;
+    color: white;
+    border-radius: 8px;
+    border-color: #cc5500;
+  }
+
+  .password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 10px;
+    align-items: center;
+    cursor: pointer;
+  }
+  
